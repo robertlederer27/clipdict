@@ -37,7 +37,7 @@ function render(items) {
 
       const copyBtn = document.createElement("button");
       copyBtn.className = "copy-btn";
-      copyBtn.textContent = "📋";
+      copyBtn.textContent = "COPY";
       copyBtn.title = "Copy";
       copyBtn.addEventListener("click", (e) => {
         e.stopPropagation();
